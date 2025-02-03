@@ -1,0 +1,89 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<style>  
+body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: pink;  
+}  
+.container {  
+    padding: 50px;  
+  background-color: Gray;  
+}  
+  
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: orange;  
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}  
+</style>  
+</head>  
+<body>  
+<form>  
+  <div class="container">  
+  <center>  <h1> Tarang Registration Form</h1> </center>  
+  <hr>  
+<b><label> Name of Student </label>  </b>
+<input type="text" name="Name of Student" placeholder= "Name of Student" size="40" required />  
+<div>  
+<label>   
+<b>Event: </b> 
+</label> <br>  
+<input type="checkbox"><label">Fate</label>
+<input type="checkbox"><label> Rangoli</label>
+<input type="checkbox"><label> Trasure Hunt</label><br>
+<input type="checkbox"><label> Fashion Show</label>
+<input type="checkbox"><label> Dance</label>
+<input type="checkbox"><label> other </label>
+</select>  
+</div>  
+<div>  
+<label>   
+<b>Branch : </b> 
+</label>
+  
+<input type="radio" value="CSE" name="Branch"  > CSE  
+<input type="radio" value="Electrical Engineering" name="Branch"> Electrical Engineering
+<input type="radio" value="ETC" name="Branch">  ETC
+<input type="radio" value="Civil Engineering" name="Branch">  Civil Engineering
+<input type="radio" value="Other" name="Branch"> Other  
+  
+</div>  
+<label> <b>  
+Contact No. :  </b>
+</label>  
+<input type="text" name="country code" placeholder="Country Code"  value="+91" size="2"/>   
+<input type="text" name="Contact No." placeholder="Contact No." size="10"/ required>   
+
+    <button type="submit" class="registerbtn">Register</button>    
+</form>  
+</body>  
+</html>  
